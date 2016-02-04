@@ -1,0 +1,51 @@
+
+
+#gameBoard {
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
+  height: 800px;
+  width: 800px;
+}
+
+.odd {
+  /*width:30px;
+  height:30px;*/
+   /*border:blue 1px solid;*/
+   display:inline-block;
+   *display:inline;zoom:1;
+   margin:0px;outline:none;
+   vertical-align: top;
+   line-height: 0px;
+}
+
+.even {
+  /*width:30px;
+  height:30px;*/
+   /*border:blue 1px solid;*/
+   display:inline-block;
+   *display:inline;zoom:1;
+   margin:0px;outline:none;
+   vertical-align: top;
+   line-height: 0px;
+}
+
+.white {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  background-color: purple;
+}
+
+.black {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
